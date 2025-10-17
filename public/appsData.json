@@ -1,14 +1,14 @@
 [
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "image": "https://i.ibb.co.com/fd1qLhjC/insta.jpg",
     "title": "Instagram",
     "companyName": "Meta Platforms Inc.",
     "id": 1,
     "description": "A social platform for sharing photos, videos, and stories with friends and followers.",
     "size": 185,
-    "reviews": 12000000,
+    "reviews":"12m",
     "ratingAvg": 4.6,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
       { "name": "1 star", "count": 500000 },
       { "name": "2 star", "count": 700000 },
@@ -18,15 +18,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "image": "https://i.ibb.co.com/nqBrpJ8W/download.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 2,
     "description": "Stream millions of songs, podcasts, and playlists from around the world.",
     "size": 130,
-    "reviews": 8500000,
+    "reviews": "8.5M",
     "ratingAvg": 4.7,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 300000 },
       { "name": "2 star", "count": 500000 },
@@ -36,15 +36,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/300/300221.png",
+    "image": "https://i.ibb.co.com/m3WFVKh/download-1.png",
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 3,
     "description": "Create and discover short videos with trending music, filters, and effects.",
     "size": 210,
-    "reviews": 10000000,
+    "reviews": "10M",
     "ratingAvg": 4.5,
-    "downloads": 3000000000,
+    "downloads": "3B",
     "ratings": [
       { "name": "1 star", "count": 600000 },
       { "name": "2 star", "count": 800000 },
@@ -54,15 +54,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/888/888853.png",
+    "image": "https://i.ibb.co.com/G4pJQKSN/download-2.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 4,
     "description": "Watch, upload, and share videos with millions of users globally.",
     "size": 240,
-    "reviews": 19000000,
+    "reviews": "19M",
     "ratingAvg": 4.4,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
       { "name": "1 star", "count": 1000000 },
       { "name": "2 star", "count": 1200000 },
@@ -72,15 +72,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968852.png",
+    "image": "https://i.ibb.co.com/TDbdb42x/download.jpg",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms Inc.",
     "id": 5,
     "description": "Instant messaging, calls, and media sharing across the world securely.",
     "size": 95,
-    "reviews": 17500000,
+    "reviews": "17.5M",
     "ratingAvg": 4.8,
-    "downloads": 8000000000,
+    "downloads": "8B",
     "ratings": [
       { "name": "1 star", "count": 400000 },
       { "name": "2 star", "count": 600000 },
@@ -90,15 +90,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2504/2504946.png",
+    "image": "https://i.ibb.co.com/tMRy3DRV/download-3.png",
     "title": "Facebook",
     "companyName": "Meta Platforms Inc.",
     "id": 6,
     "description": "Connect with friends, share updates, and discover communities worldwide.",
     "size": 220,
-    "reviews": 23000000,
+    "reviews": "23M",
     "ratingAvg": 4.2,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
       { "name": "1 star", "count": 1800000 },
       { "name": "2 star", "count": 1500000 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732245.png",
+    "image": "https://i.ibb.co.com/KxrLjBSx/download-1.jpg",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 7,
     "description": "Stream popular movies, TV shows, and exclusive originals in HD.",
     "size": 180,
-    "reviews": 9500000,
+    "reviews": "9.5M",
     "ratingAvg": 4.6,
-    "downloads": 2000000000,
+    "downloads": "2B",
     "ratings": [
       { "name": "1 star", "count": 700000 },
       { "name": "2 star", "count": 800000 },
@@ -126,15 +126,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+    "image": "https://i.ibb.co.com/ymQqQDVp/download-4.png",
     "title": "Twitter (X)",
     "companyName": "X Corp.",
     "id": 8,
     "description": "Follow breaking news, share thoughts, and join global conversations.",
     "size": 120,
-    "reviews": 8900000,
+    "reviews": "8.9M",
     "ratingAvg": 4.0,
-    "downloads": 1500000000,
+    "downloads": "1.5B",
     "ratings": [
       { "name": "1 star", "count": 1200000 },
       { "name": "2 star", "count": 1000000 },
@@ -144,15 +144,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/174/174848.png",
+    "image": "https://i.ibb.co.com/xtptm1vK/download-5.png",
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 9,
     "description": "Professional networking platform to connect with colleagues and employers.",
     "size": 140,
-    "reviews": 5700000,
+    "reviews": "5.7M",
     "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 300000 },
       { "name": "2 star", "count": 400000 },
@@ -162,15 +162,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732228.png",
+    "image": "https://i.ibb.co.com/6RqyTDNL/download-6.png",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 10,
     "description": "Send quick snaps, chat with friends, and explore AR filters daily.",
     "size": 160,
-    "reviews": 6800000,
+    "reviews": "6.8M",
     "ratingAvg": 4.2,
-    "downloads": 1500000000,
+    "downloads": "1.5B",
     "ratings": [
       { "name": "1 star", "count": 500000 },
       { "name": "2 star", "count": 700000 },
@@ -180,15 +180,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2504/2504929.png",
+    "image": "https://i.ibb.co.com/rfbLnhZ2/download-7.png",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 11,
     "description": "Discover and save creative ideas, designs, and lifestyle inspirations.",
     "size": 125,
-    "reviews": 4500000,
+    "reviews": "4.5M",
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
       { "name": "1 star", "count": 200000 },
       { "name": "2 star", "count": 300000 },
@@ -198,15 +198,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "image": "https://i.ibb.co.com/YBRYQZ2b/download-8.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 12,
     "description": "Fast and secure messaging app with cloud sync and channels.",
     "size": 105,
-    "reviews": 6700000,
+    "reviews": "6.7M",
     "ratingAvg": 4.7,
-    "downloads": 1200000000,
+    "downloads": "1.2B",
     "ratings": [
       { "name": "1 star", "count": 200000 },
       { "name": "2 star", "count": 300000 },
@@ -216,15 +216,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732076.png",
+    "image": "https://i.ibb.co.com/1g0SSFL/download-9.png",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 13,
     "description": "Email app for secure, organized, and spam-free communication.",
     "size": 110,
-    "reviews": 8200000,
+    "reviews": "8.2M",
     "ratingAvg": 4.5,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
       { "name": "1 star", "count": 400000 },
       { "name": "2 star", "count": 500000 },
@@ -234,15 +234,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+    "image": "https://i.ibb.co.com/PG9Y7VMX/download-2.jpg",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 14,
     "description": "Navigate, explore local areas, and find the best routes in real time.",
     "size": 190,
-    "reviews": 9700000,
+    "reviews": "9.7M",
     "ratingAvg": 4.6,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
       { "name": "1 star", "count": 300000 },
       { "name": "2 star", "count": 400000 },
@@ -252,15 +252,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "image": "https://i.ibb.co.com/qLwMJWxV/download-10.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 15,
     "description": "Shop millions of products online with easy delivery and secure payments.",
     "size": 150,
-    "reviews": 10500000,
+    "reviews": "10.5M",
     "ratingAvg": 4.4,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
       { "name": "1 star", "count": 800000 },
       { "name": "2 star", "count": 1000000 },

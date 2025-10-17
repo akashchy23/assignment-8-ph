@@ -4,7 +4,6 @@ import logoImg from '../assets/logo.png'
 import gitPng from '../assets/github.png'
 import  './Navbar.css'
 
-
 const Navbar = () => {
     return (
         <div>
