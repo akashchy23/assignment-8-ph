@@ -3,6 +3,7 @@ import MainLayOut from "../Layout/MainLayOut";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import ErrorPage from "../Pages/ErrorPage";
+import AppsDetails from "../Pages/AppsDetails";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path:'/apps',
                 Component:Apps
+            },
+            {
+                path:'/appsdetails/:id',
+                Component:AppsDetails
             }
         ]
     }

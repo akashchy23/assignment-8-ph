@@ -25,11 +25,19 @@ const Apps = () => {
                         <input value={searchApps} onChange={(e) => setSearchApps(e.target.value)} type="search" placeholder='search apps here' />
                     </label>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full mx-auto mb-15'>
+                {
+                    searchedApps.length === 0? 
+                    (<div className='text-center'>
+                        <p className='text-5xl text-gray-300 font-black'>No Apps Found</p>
+                    </div>) 
+                    :(
+                        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full mx-auto mb-15'>
                     {
-                        searchedApps.map(app => <AppsCard app={app}></AppsCard>)
+                        searchedApps.map(app => <AppsCard key={app.id} app={app}></AppsCard>)
                     }
                 </div>
+                    )
+                }
             </div>
         </div>
 
