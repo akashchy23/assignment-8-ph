@@ -6,12 +6,13 @@ import iconrating from '../assets/icon-ratings.png'
 import iconreview from '../assets/icon-review.png'
 import useAppsData from '../hooks/useApps';
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
+import { handleAddtoLocal } from '../utilis/localstorage';
 const AppsDetails = () => {
     const { id } = useParams()
     const { apps, loading } = useAppsData()
     const app = apps.find(p => p.id === parseInt(id))
     if (loading) return <p>loading....</p>
-    
+
     if (!app) {
         return (
             <div className='flex justify-center items-center mt-20'>
@@ -56,7 +57,7 @@ const AppsDetails = () => {
                         </div>
                     </div>
 
-                    <button className='py-3 px-6 bg-[#00D390] text-white font-bold rounded-xl text-xl mt-8'>
+                    <button onClick={()=>handleAddtoLocal(app)} className='py-3 px-6 bg-[#00D390] text-white font-bold rounded-xl text-xl mt-8'>
                         Install Now(<span>{app.size}MB</span>)
                     </button>
                 </div>
@@ -69,8 +70,8 @@ const AppsDetails = () => {
 
             <div className='mx-5'>
                 <h1 className='text-2xl font-semibold'>Ratings</h1>
-                <div className='w-full h-[300px] md:[400px] '>
-                    <ResponsiveContainer width={'100%'} height={'100%'}>
+                <div className='w-full h-[300px] md:h-[400px]'>
+                    <ResponsiveContainer width="100%" height="100%" >
                         <BarChart data={[...app.ratings].reverse()} layout='vertical' >
                             <XAxis type='number'></XAxis>
                             <YAxis type='category' dataKey={'name'}></YAxis>
