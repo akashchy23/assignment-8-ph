@@ -1,0 +1,1 @@
+// function for add to local storage

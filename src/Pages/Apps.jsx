@@ -9,7 +9,7 @@ const Apps = () => {
     const searchedApps = term ?
         apps.filter(app => app.title.toLowerCase().includes(term))
         : apps;
-    console.log(searchedApps)
+   
     return (
         <div className='max-w-[1440px] mx-auto'>
             <div className='text-center mt-10 md:mt-15 space-y-4'>
