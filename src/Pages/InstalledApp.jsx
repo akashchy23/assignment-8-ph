@@ -2,7 +2,10 @@ import React from 'react';
 
 import download from '../assets/icon-downloads.png'
 import review from '../assets/icon-ratings.png'
-const InstalledApp = ({app}) => {
+
+const InstalledApp = ({app, handleUninstall}) => {
+   
+   
     return (
         <div className='flex justify-between items-center bg-[#FFFFFF] p-5 rounded-2xl'>
             <div className='flex items-center'>
@@ -25,7 +28,7 @@ const InstalledApp = ({app}) => {
                 </div>
             </div>
             <div>
-                <button className='py-3 px-4 bg-[#00D390] text-white font-semibold rounded-xl'>Uninstall</button>
+                <button onClick={()=>handleUninstall(app.id)} className='py-3 px-4 bg-[#00D390] text-white font-semibold rounded-xl'>Uninstall</button>
             </div>
         </div>
     );

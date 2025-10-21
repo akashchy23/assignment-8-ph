@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
 
 import icondownload from '../assets/icon-downloads.png'
@@ -6,11 +6,24 @@ import iconrating from '../assets/icon-ratings.png'
 import iconreview from '../assets/icon-review.png'
 import useAppsData from '../hooks/useApps';
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
-import { handleAddtoLocal } from '../utilis/localstorage';
+import { handleAddtoLocal, handleLoadApps } from '../utilis/localstorage';
+
+
 const AppsDetails = () => {
+    const [installed, setInstalled] = useState(false)
+    
     const { id } = useParams()
     const { apps, loading } = useAppsData()
     const app = apps.find(p => p.id === parseInt(id))
+
+     useEffect(() => {
+        if (!app) return;
+        const appsInstalled = handleLoadApps()
+        const status = appsInstalled.some(p => p.id === app.id)
+        setInstalled(status)
+    }, [app])
+
+
     if (loading) return <p>loading....</p>
 
     if (!app) {
@@ -26,6 +39,8 @@ const AppsDetails = () => {
             </div>
         )
     }
+
+   
 
     return (
         <div className='max-w-[1440px] mx-auto mb-10 md:mb-20'>
@@ -57,8 +72,11 @@ const AppsDetails = () => {
                         </div>
                     </div>
 
-                    <button onClick={()=>handleAddtoLocal(app)} className='py-3 px-6 bg-[#00D390] text-white font-bold rounded-xl text-xl mt-8'>
-                        Install Now(<span>{app.size}MB</span>)
+                    <button onClick={() => {
+                        handleAddtoLocal(app),
+                            setInstalled(true)
+                    }} className='py-3 px-6 bg-[#00D390] text-white font-bold rounded-xl text-xl mt-8'>
+                        {installed ? "Installed" : ` Install Now(${app.size}MB)`}
                     </button>
                 </div>
             </div>
