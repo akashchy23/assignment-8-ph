@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
-
+import appError from '../assets/App-Error.png'
 import icondownload from '../assets/icon-downloads.png'
 import iconrating from '../assets/icon-ratings.png'
 import iconreview from '../assets/icon-review.png'
@@ -29,9 +29,12 @@ const AppsDetails = () => {
     if (!app) {
         return (
             <div className='flex justify-center items-center mt-20'>
-                <div className='text-center space-y-6'>
-                    <h1 className='font-bold text-4xl'>App Not Found</h1>
-                    <p className='text-gray-400 text-xl'>The app you are looking for does not exist or may have been removed.</p>
+                <div className='text-center space-y-6 mb-10 md:mb-15'>
+                   <div className='flex items-center justify-center'>
+                     <img  src={appError} alt="" />
+                   </div>
+                    <h1 className='font-bold text-4xl'>OPPS!! APP NOT FOUND</h1>
+                    <p className='text-gray-400 text-xl'>The App you are requesting is not found on our system.  please try another apps</p>
                     <Link to='/' className='text-white rounded-sm font-semibold py-3 px-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
                         Back to Home
                     </Link>
